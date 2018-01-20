@@ -1,22 +1,22 @@
 <!--pages/databindling/databindling.wxml-->
 <view>
   <view class='topic'>Export/Require Function from external</view>
-  <view class='normal_text'> {{stringHelp}}</view>
+  <view class='normal-text'> {{stringHelp}}</view>
   <view class='topic'>Normal data binding</view>
-  <view class='normal_text' hidden='{{hidden}}'>Hidden</view>
-  <view class='normal_text'>Object : {{user.name}}</view>
-  <view class='normal_text'>Array : {{users[1]}}</view>
+  <view class='normal-text' hidden='{{hidden}}'>Hidden</view>
+  <view class='normal-text'>Object : {{user.name}}</view>
+  <view class='normal-text'>Array : {{users[1]}}</view>
   <view class='topic'>If condition Render</view>
   <block wx:if='{{block_condition}}'>
-    <view class='normal_text'>Block condition 1</view>
-    <view class='normal_text'>Block condition 2</view>
+    <view class='normal-text'>Block condition 1</view>
+    <view class='normal-text'>Block condition 2</view>
   </block>
-  <view class='normal_text' wx:if='{{condition}}'>Condition 1</view>
-  <view class='normal_text' wx:if='{{length>5}}'>Condition 2</view>
-  <view class='normal_text' wx:if='{{score>90}}'>Score Level A</view>
-  <view class='normal_text' wx:elif='{{score>70}}'>Score Level B</view>
-  <view class='normal_text' wx:elif='{{score>50}}'>Score Level C</view>
-  <view class='normal_text' wx:else>Score Level D</view>
+  <view class='normal-text' wx:if='{{condition}}'>Condition 1</view>
+  <view class='normal-text' wx:if='{{length>5}}'>Condition 2</view>
+  <view class='normal-text' wx:if='{{score>90}}'>Score Level A</view>
+  <view class='normal-text' wx:elif='{{score>70}}'>Score Level B</view>
+  <view class='normal-text' wx:elif='{{score>50}}'>Score Level C</view>
+  <view class='normal-text' wx:else>Score Level D</view>
   <view class='topic'>For loop Render</view>
-  <view class='normal_text' wx:for="{{['a','b','c','d']}}" wx:key='a'>value : {{item}} , index : {{index}}</view>
+  <view class='normal-text' wx:for="{{['a','b','c','d']}}" wx:key='a'>value : {{item}} , index : {{index}}</view>
 </view>

@@ -5,8 +5,16 @@
   height:20px;
 }
 
-.normal_text {
+.normal-view {
+  padding:10px;
+}
+
+.normal-text {
   color: lightcoral;
   padding:10px;
-  height:20px;
+}
+
+.normal-icon {
+  color: lightcoral;
+  padding:10px;
 }

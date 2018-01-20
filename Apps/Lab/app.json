@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/template/template",
     "pages/databindling/databindling",
     "pages/content/content",
     "pages/index/index",

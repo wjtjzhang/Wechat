@@ -1,0 +1,24 @@
+<!--pages/template/template.wxml-->
+<template name='bo_display'>
+  <view>
+    <icon class='normal-icon' type='success'></icon>
+    <text class='normal-text'>Template Demo</text>
+  </view>
+</template>
+
+<template name='progress_template'>
+<view class='normal-view'>
+  <progress percent='{{percent}}' color='{{color}}' show-info='{{show_info}}' active='{{active}}'></progress>
+  </view>
+</template>
+
+<view>
+  <view class='topic'>Template - static</view>
+  <template is='bo_display'/>
+  <view class='topic'>Template - dynamic</view>
+  <template is='progress_template' data="{{...pink_progress}}"/>
+  <template is='progress_template' data="{{...red_progress}}"/>
+
+  <view class='topic'>Template - condition</view>
+  <template is='{{isProgress?"bo_display":"progress_template"}}' data="{{...pink_progress}}"/>
+</view>
