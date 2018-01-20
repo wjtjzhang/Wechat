@@ -1,0 +1,26 @@
+/* pages/view/view.wxss */
+.flex-wrap {
+  display: flex;
+  background-color: lightgray
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid orange;
+  width: 100px;
+  height: 100px;
+}
+
+.bc-purple {
+  background-color: purple
+}
+
+.bc-pink {
+  background-color: pink
+}
+
+.bc-red {
+  background-color: red
+}

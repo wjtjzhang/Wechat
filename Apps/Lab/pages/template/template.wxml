@@ -1,6 +1,6 @@
 <!--pages/template/template.wxml-->
 <template name='bo_display'>
-  <view>
+  <view style='display:flex;flex-direction:row'>
     <icon class='normal-icon' type='success'></icon>
     <text class='normal-text'>Template Demo</text>
   </view>

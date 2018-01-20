@@ -1,7 +1,9 @@
 {
   "pages": [
+    
     "pages/template/template",
     "pages/databindling/databindling",
+    "pages/view/view",
     "pages/content/content",
     "pages/index/index",
     "pages/swiper/swiper",
