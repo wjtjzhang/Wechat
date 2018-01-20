@@ -1,0 +1,18 @@
+<!--pages/scrollView/scrollView.wxml-->
+<view>
+  <view class='topic'>X direction scroll</view>
+  <scroll-view scroll-x="{{true}}" style='white-space:nowrap' scroll-into-view='purple'>
+    <view id='purple' class='scroll_item scroll_item_x bc_purple'>View 1</view>
+    <view id='yellow' class='scroll_item scroll_item_x bc_yellow'>View 2</view>
+    <view id='pink' class='scroll_item scroll_item_x bc_pink'>View 3</view>
+    <view id='blue' class='scroll_item scroll_item_x bc_blue'>View 4</view>
+  </scroll-view>
+
+  <view class='topic'>Y direction scroll</view>
+  <scroll-view scroll-y="{{true}}" class='scrollView_y' scroll-into-view='blue'>
+    <view id='purple' class='scroll_item bc_purple'>View 1</view>
+    <view id='yellow' class='scroll_item bc_yellow'>View 2</view>
+    <view id='pink' class='scroll_item bc_pink'>View 3</view>
+    <view id='blue' class='scroll_item bc_blue'>View 4</view>
+  </scroll-view>
+</view>

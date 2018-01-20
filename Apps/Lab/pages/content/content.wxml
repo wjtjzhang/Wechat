@@ -1,0 +1,25 @@
+<!--pages/content/content.wxml-->
+<view>
+  <view class='topic'>Basic Content - Icon Demo</view>
+  <view class='container'>
+    <icon type='success' size='30' color='red'></icon>
+    <icon type='success_no_circle' size='30' color='red'></icon>
+    <icon type='info' size='30' color='red'></icon>
+    <icon type='warn' size='30' color='red'></icon>
+    <icon type='waiting' size='30' color='red'></icon>
+    <icon type='cancel' size='30' color='red'></icon>
+    <icon type='download' size='30' color='red'></icon>
+    <icon type='search' size='30' color='red'></icon>
+    <icon type='clear' size='30' color='red'></icon>
+  </view>
+
+  <view class='topic'>Basic Content - Text Demo</view>
+  <view class='container'>
+    <text>This a normal text</text>
+  </view>
+
+  <view class='topic'>Basic Content - Progress Demo</view>
+  <view class='container'>
+    <progress percent='60' color='blue' show-info='{{true}}' stroke-width='50' active='{{true}}'></progress>
+  </view>
+</view>

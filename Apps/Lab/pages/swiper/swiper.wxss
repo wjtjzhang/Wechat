@@ -1,0 +1,16 @@
+/* pages/swiper/swiper.wxss */
+.bc_yellow {
+  background-color: yellow
+}
+
+.bc_red {
+  background-color: red;
+}
+
+.bc_pink {
+  background-color: deeppink;
+}
+
+.swiper_view {
+  height: 300px
+}

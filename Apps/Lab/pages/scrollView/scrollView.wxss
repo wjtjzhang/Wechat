@@ -1,0 +1,31 @@
+/* pages/scrollView/scrollView.wxss */
+.scrollView_y{
+  height: 300px;
+}
+
+.scroll_item {
+  height:100px;
+  width:100px;
+  text-align: center
+}
+
+.scroll_item_x {
+  width:100px;
+  display: inline-block;
+}
+
+.bc_purple {
+  background-color: palevioletred;
+}
+
+.bc_yellow {
+  background-color: yellow;
+}
+
+.bc_pink {
+  background-color: pink;
+}
+
+.bc_blue {
+  background-color: blue;
+}

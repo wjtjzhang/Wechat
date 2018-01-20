@@ -1,0 +1,15 @@
+<!--pages/swiper/swiper.wxml-->
+<view>
+  <view class='topic'>Swiper Demo</view>
+  <swiper indicator-dots='{{true}}' autoplay='{{true}}'  interval='2000' duration='500' current="1">
+    <swiper-item>
+      <view class="bc_red swiper_view"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="bc_yellow swiper_view"></view>
+    </swiper-item>
+    <swiper-item>
+      <view class="bc_pink swiper_view"></view>
+    </swiper-item>
+  </swiper>
+</view>

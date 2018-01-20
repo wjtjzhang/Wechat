@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/content/content",
+    "pages/swiper/swiper",
+    "pages/scrollView/scrollView"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "gray",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "APP Lab"
+  }
+
+}
