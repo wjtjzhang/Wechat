@@ -1,6 +1,12 @@
 .topic {
-  background-color: cyan;
-  color:black;
+  background-color: green;
+  color:white;
+  padding:10px;
+  height:20px;
+}
+
+.normal_text {
+  color: lightcoral;
   padding:10px;
   height:20px;
 }

@@ -1,11 +1,22 @@
-// pages/content/content.js
+var stringHelp = require("../../utils/StringUtil.js")
+
+// pages/databindling/databindling.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    stringHelp : stringHelp.help(),
+    score:10,
+    block_condition:true,
+    condition:true,
+    length: 6,
+    hidden:false,
+    user : {
+      name : "User A"
+    },
+    users : ['User A','User B','User C']
   },
 
   /**
